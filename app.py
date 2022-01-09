@@ -13,6 +13,7 @@ import yfinance as yf
 
 st.title("Stock Price Prediction")
 st.warning("Model's accuracy varies from Stock to Stock")
+st.markdown('#### Enter the stock ticker(for NSE stocks add .NS after the name)')
 stock_name = st.text_input("")
 
 start_date = "2012-01-01"
